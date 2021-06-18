@@ -426,11 +426,7 @@ const nameToId = (name: string) => {
  **  Copyright (C) 2013-2021, NumFOCUS Foundation.
  **  Derived, with permission, from the SOFA library.  See notes at end of file.
  */
-export const simonBretagnon = (
-  date1: number,
-  date2: number,
-  name: string
-): [Vector3, Vector3] => {
+export const simonBretagnon = (date1: number, date2: number, name: string) => {
   /* ------------------------------------------------------------------ */
 
   /* Validate the planet number. */
